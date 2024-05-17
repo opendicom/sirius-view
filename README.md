@@ -10,7 +10,7 @@ DICOMweb fue diseñado por el grupo de trabajo WG-18 para coexistir con PACS tra
 
 ## alternativa studydckv
 
-studydckv, formato kv de almacenamiento de datos dentro de un PACS de nueva generación fue diseñado para optimizar todos estos aspectos.
+[studydckv](https://github.com/jacquesfauquex/DCKV/wiki), formato kv de almacenamiento de datos dentro de un PACS de nueva generación fue diseñado para optimizar todos estos aspectos.
 
 La delimitación qido / wado del diseño del WG-18 desaparece. Todos los pedidos REST de studydckv piden especificamente un conjunto de atributos (incluyendo o no los pixeles). Además el formato studydckv tiene por separado 4 layers de calidad para poder mostrar la imagen como miniatura, baja resolución, alta resolución y sin pérdida. De tal forma que se puede bajar el nivel bajo y luego los niveles adicionales, sin volver a bajar los niveles anteriores.
 
